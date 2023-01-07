@@ -28,8 +28,11 @@ code {
   text-align: center;
 }
 /* body component */
+
 .partner{
   text-align: center;
+ 
+  border: 1px solid green;
 }
 .partner>h2{
   color: rgb(82, 79, 79);
@@ -39,5 +42,32 @@ code {
  animation: forwards;
 }
 .company>img{
-  height: 150px;
+  height: 120px;
+}
+.enroll{
+display: flex;
+text-align: center;
+border: 1px solid red;
+}
+.enrl1{
+  background-color: rgb(67, 98, 210);
+  color: white;
+}
+.enrl2{
+display: flex;
+}
+.enrl4{
+  background-color: blueviolet;
+}
+.skill{
+  text-align: center;
+}
+.pref{
+  text-align: center;
+  background-color: rgb(255,249,229);
+  justify-content: center;
+}
+.instr{
+  text-align: center;
+
 }

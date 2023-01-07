@@ -3,7 +3,7 @@ import React from 'react'
 export const Pbody = () => {
   return (
     <div>
-        <img src='https://masai-website-images.s3.ap-south-1.amazonaws.com/stud_image_desktop_upload_793ed2b430.png' alt='students'/>
+        <img src='https://masai-website-images.s3.ap-south-1.amazonaws.com/stud_image_desktop_upload_793ed2b430.png' alt='students' width="90%"/>
         <div className='partner'>
             <h2>Skilling talent that delivers.</h2>
             <h1>Meet Our 2000+ Hiring Partners</h1>
@@ -36,8 +36,50 @@ export const Pbody = () => {
                 <img src='https://masai-website-images.s3.ap-south-1.amazonaws.com/ibm_795b5429ee.svg' alt='ibm'/>
             </div>
         </div>
-            
+            <div className='enroll'>
+              <div>
+                <div className="enrl1">
+                  <span><h1>6000+</h1><h1>students Currently Enrolled</h1></span>
+                  <span><h1>94%</h1><h1>Placement Rate*</h1></span>
+                  <p>*for students who have graduated from Masai School and are Masai accredited</p>
+                </div>
+                <div className="enrl2">
+                  <div> </div>
+                  <div> </div>
 
+                </div>
+              </div>
+              <div className='enrl4'> 
+                <img src='https://www.masaischool.com/img/homepage/media.png' alt=''/>
+                <h2>Masai in the News</h2>
+                <button>KNOW MORE</button>
+              </div>
+            </div>
+          <div className='skill'>
+            <h1>Skill.Reskill.Upskill</h1>
+            <p>No matter the stage of your career, if growth in India’s tech industry is your desired outcome, we got you covered!</p>
+          </div> 
+          <div className='pref'>
+          <img src='https://www.masaischool.com/img/masai-prepleaf/masai-prepleaf-logo.svg' alt=''/>
+          <h1>Scholar programs by Prepleaf</h1>
+          <p>Masai acquired Prepleaf in 2021 to expand their placement preparation portal as a go-to no 
+            cost resource for college students. Since, the 2 companies have offered a Data Analytics course with a 
+            Pay After Placement model. The Scholar Program comes as India’s first subscription based foundational learning course</p>
+          <p>for 1st, 2nd & pre-final year students.</p> 
+          <button>VIEW COURSES</button> 
+          <p>You can avail scholarship upto 75%.</p>
+          </div> 
+          <button>START LEARNING</button>
+          <div className="instr">
+              <h1>Meet Your Instructors</h1>
+              <p>With extensive industry experience, the Masai Curriculum Team is a group of expert instructors.</p>
+            <div>
+            </div>  
+          </div>
+          <div className='trust'>
+            <h1>Thousands Trust Masai</h1>
+            <h1>To Launch Their career</h1>
+          </div>
     </div>
   )
 }
