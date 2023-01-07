@@ -3,7 +3,9 @@ import React from 'react'
 export const Pbody = () => {
   return (
     <div className='pbody'>
-        <img src='https://masai-website-images.s3.ap-south-1.amazonaws.com/stud_image_desktop_upload_793ed2b430.png' alt='students' width="90%"/>
+      <div className='student'>
+        <img src='https://masai-website-images.s3.ap-south-1.amazonaws.com/stud_image_desktop_upload_793ed2b430.png' alt='students'/>
+        </div>
         <div className='partner'>
             <h2>Skilling talent that delivers.</h2>
             <h1>Meet Our 2000+ Hiring Partners</h1>
@@ -104,24 +106,118 @@ export const Pbody = () => {
           <button className='vw'>VIEW COURSES</button> 
           <p>You can avail scholarship upto 75%.</p>
           </div> 
-          <button className='btn'>START LEARNING</button>
+          
+
+          <>
+    <div className='program'>
+        <div className='program-one'>
+            <p className='program-text'>Masai & N.S.D.C. <br /> Announce Strategic <br /> Partnership.</p>
+            <p className='program-para'>The partnership with National Skill Development Corporation has the potential to create equal employment opportunity for India’s youth, narrowing the gap between the demand and supply of skilled manpower for the private-sector job market.  This collaboration will change the way skill-based education is delivered in India.</p>
+        </div>
+        <div className='program-two'>
+            <div className='program-video'>
+                <iframe src="https://www.youtube.com/embed/6vOmBOvIyPE?autoplay=0&mute=0&controls=0&origin=https%3A%2F%2Fwww.masaischool.com&playsinline=1&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1&enablejsapi=1&widgetid=1" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <button className='program-btn'>START LEARNING</button>
+    </>
+  {/* Instuctor */}
+
           <div className="instr">
               <h1>Meet Your Instructors</h1>
               <p>With extensive industry experience, 
                 the Masai Curriculum Team is a group of expert instructors.</p>
-              <div>
-
-              </div>  
+              <div className='instr-one'>
+                  <div className='instr-single'>
+                    <img className='person' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/Nrupul_d3fe3b289a.jpg' alt=''/>
+                    <h3>Nrupul Dev</h3>
+                    <p>co-founder & CTO</p>
+                    <img className='exComp' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/ex_da_557255e025.jpeg' alt=''/>
+                  </div>
+                  <div className='instr-single'>
+                  <img className='person' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/Yogesh_52e31f5560.jpg' alt=''/>
+                  <h3>Yogesh Bhat</h3>
+                  <p>co-founder & SVP-Hollistic Developement</p>
+                  <img className='exComp' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/ex_mercuri_129d690457.svg' alt=''/>
+                  </div>
+                  <div className='instr-single'>
+                    <img className='person' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/aman_fbbc8625a4.jpg' alt=''/>
+                    <h3>Aman Vats</h3>
+                    <p>Director-Curriculum</p>
+                    <img className='exComp' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/ex_exl_ab21e9bfe0.png' alt=''/>
+                  </div>
+                  <div className='instr-single'>
+                    <img className='person' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/Albert_28b73517f6.jpg' alt=''/>
+                    <h3>Albert Sebastian</h3>
+                    <p>Director-Curriculum</p>
+                    <img className='exComp' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/ex_realized_5d3fee2677.jpeg' alt=''/>
+                  </div>
+              </div> 
+              <div className='instr-one'>
+                <div className='instr-single'>
+                  <img className='person' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/lohit_dp_98abd5839c.jpeg' alt=''/>
+                  <h3>Lohit Marodia</h3>
+                    <p>Director-Curriculum</p>
+                    <img className='exComp' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/ex_microsoft_80272817c6.png' alt=''/>
+                </div>
+                <div className='instr-single'>
+                  <img className='person' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/Ritesh_Firodiya_4_8a667ac9c8.jpg' alt=''/>
+                  <h3>Ritesh Firodiya</h3>
+                    <p>Senior Curriculum Engineer</p>
+                    <img className='exComp' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/ex_swiggy_9ca86a3f78.svg'alt=''/>
+                </div>
+                <div className='instr-single'>
+                    <img className='person' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/swanand_d399feddf5.jpeg' alt=''/>
+                    <h3>Swanand Kadam</h3>
+                    <p>Senior Curriculum Engineer</p>
+                    <img className='exComp' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/kalaam_f2ea778a36.png' alt=''/>
+                </div>
+              </div> 
             <div>
             </div>  
+            <button className='footbtn'>SEE MORE   </button>
           </div>
-          <div className='trust'>
-            <h2>Thousands Trust Masai To</h2>
-            <h2>Launch Their career</h2>
-            <div>
 
+          <div className='trust'>
+            <h2>Thousands Trust Masai To<br/>Launch Their career</h2>
+            <div className='alum-one'>
+              <div className='alum-single'>
+                <img className='person' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/Aayushi_527cd1c2a3.jpg' alt=''/>
+                <p>I got placed within 2 days after graduation!<br/> 
+                   I’m happy I am part of the Masai family,<br/> 
+                    not because they helped me <br/> 
+                    but because of their mission...</p>
+                <p>Aayushi Shah</p>  
+                <img className='exComp'src='https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_rect_73d95cd4e1.svg' alt=''/>
+              </div>
+              <div className='alum-single'>
+                <img className='person' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/Kritika_Tripathi_716c47cbbd.jpg' alt=''/>
+                <p>Masai brought discipline to my life, <br/> 
+                  helped me develop a coder’s mindset<br/> 
+                   and increase my concentration<br/> 
+                    as well as time management...</p>
+                <p>Kritika Tripathi</p> 
+                <img className='exComp'src='https://masai-website-images.s3.ap-south-1.amazonaws.com/instamojo_8763e704f7.png' alt=''/> 
+              </div>
+              <div className='alum-single'>
+                <img className='person' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/Lokesh_Nimje_90cfa775e3.jpg' alt=''/>
+                <p>Projects are a part of journey at Masai.<br/> 
+                   It gives the opportunity to work in a team,<br/> 
+                   which gives a real experience of the corporate</p>
+                <p>Lokesh Nimje</p>
+                <img className='exComp'src='https://masai-website-images.s3.ap-south-1.amazonaws.com/MPL_7713ca3d5b.svg'/>
+              </div>
+              <div className='alum-single'>
+                <img className='person' src='https://masai-website-images.s3.ap-south-1.amazonaws.com/Lalitha_9c1e4f1cab.jpg' alt=''/>
+                <p>I left a job at Infosys to learn coding.<br/> 
+                  Masai helped me get 3X more salary <br/> 
+                  in a product-based company.</p>
+                <p>Lalitha Perumalla</p>
+                <img className='exComp'src='https://masai-website-images.s3.ap-south-1.amazonaws.com/Ajio_2ba59d62cb.svg' alt=''/>
+              </div>
             </div>
-            <button className='btn'>MORE STORIES</button>
+            <button className='footbtn'>MORE STORIES  </button>
           </div>
 
     </div>

@@ -14,15 +14,18 @@ code {
 .nav{
   text-align: center;
   display: flex;
-  width: 100%;
   padding: 1rem;
   /* margin-left: 70px; */
   gap: 50px;
+  justify-content: space-around;
 }
 #for{
+  width: 150px;
+  border: none;
   color: rgb(73, 73, 193);
-  background-color: rgb(161, 161, 255);
+  background-color: rgb(210, 210, 246);
   font-weight: bold;
+  border-radius: 8px;
 }
 .log{
   background-color: white;
@@ -53,6 +56,8 @@ code {
 
 }
 .btn{
+  margin-left: 45%;
+  margin-top: 20px;
   background-color: rgb(237,3,49);
   color: white;
   width: 150px;
@@ -67,11 +72,26 @@ code {
 }
 .dream{
   text-align: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
 
+}
+.dream-one>img{
+  z-index: 2;
+  width: 220px;
+  top: 48px;
+  vertical-align: middle;
+  margin-top: -60px;
+}
+.dream-one>h3{
+  margin-top: -30px;
 }
 /* body component */
 .pbody{
-  text-align: center;
+  margin-top: 40px;
+}
+.student{
+  /* border: 1px solid green; */
 }
 .partner{
   text-align: center;
@@ -81,11 +101,13 @@ code {
   color: rgb(82, 79, 79);
 }
 .company{
+  margin-top: 40px;
+  /* border: 1px solid red; */
   display: flex;
- animation: forwards;
+  justify-content: space-around;
 }
 .company>img{
-  height: 120px;
+  height: 100px;
 }
 .enroll{
 display: flex;
@@ -103,52 +125,132 @@ display: flex;
   background-color: blueviolet;
 }
 .skill{
+  margin-top: 80px;
   text-align: center;
 }
 .pref{
   border-radius: 10px;
-  margin-top: 40px;
+  margin-top: 80px;
   text-align: center;
   background-color: rgb(255,249,229);
   justify-content: center;
+  padding: 1 rem;
 }
+
 .instr{
-  margin-top: 40px;
+  margin-top: 60px;
   text-align: center;
 
+}
+.instr-one{
+  display: flex;
+  margin-top: 70px;
+  margin-left: 90px;
+  gap: 50px;
+ flex-wrap: wrap;
+}
+.person{
+width: 300px;
+border-radius: 20px;
+}
+.instr-single{
+  border-radius: 20px;
+  box-shadow: rgba(22, 22, 22, 0.35) 0px 5px 5px;
+}
+.exComp{
+  width: 100px;
 }
 .trust{
-  margin-top: 40px;
+  margin-top: 80px;
   text-align: center;
 
 }
+.trust>h2{
+  font-size: 40px;
+}
+.alum-one{
+  display: flex;
+  margin-top: 70px;
+  margin-left: 70px;
+  gap: 50px;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+.alum-single{
+ border-radius: 20px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 .foot{
-  margin-top: 40px;
+  margin-top: 80px;
   background-color: black;
   
 }
+.footbtn{
+    margin-top: 50px;
+    background-color: rgb(237,3,49);
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.footd{
+  display: flex;
+  width: 400px;
+  height: 150px;
+  gap: 10px;
+  margin-left: -60px;
+}
+.foottext{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.footpara {
+  color: rgb(255, 219, 102);
+  font-weight: bold;
+  margin-top: -10px;
+}
+.fbtn {
+  background-color: red;
+  color: rgb(255, 255, 255);
+  height: 70px;
+  width: 150px;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+#res{
+  color: rgb(183, 180, 180);
+}
 .dis{
+ margin: 10px;
   color: white;
   display: flex;
   text-align: center;
   margin-left: 30%;
 }
 #logo{
+  margin-top: 20px;
   border: 1px solid white;
 }
 .dis>button{
   width: 200px;
-  font-weight: bold;
-  font-size: large;
-  color: blue;
-  background-color: rgb(104, 104, 115);
+  font-weight: 600;
+  font-size: 14px;
+  color: rgb(21, 101, 246);
+  background-color: transparent;
+  border: none;
 }
 .links{
+  margin-top: 20px;
   display: flex;
   color: white;
   margin-left: 100px;
   gap: 20%;
+  justify-content: space-around;
 }
+
 /* placement */
 
 .enroll{
@@ -268,4 +370,52 @@ display: flex;
   border-radius: 10px;
   width: 150px;
   height: 50px;
+}
+
+/* prateek */
+.program {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.program-one {
+  width: 45%;
+  border-radius: 15px;
+}
+.program-text {
+  font-size: 2.1rem;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 50px;
+}
+.program-para {
+  text-align: left;
+  margin-left: 50px;
+}
+.program-two {
+  width: 45%;
+  border-radius: 15px;
+}
+.program-video {
+  height: 100%;
+  border-radius: 15px;
+}
+.program-video > iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.program-btn {
+  align-self: center;
+  background-color: rgb(237,3,49);
+  color: white;
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  font-family: sans-serif;
+  margin-left: 45%;
 }

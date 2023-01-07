@@ -4,7 +4,9 @@ export const Footer = () => {
   return (
     <div className='foot'>
         <div className='dis'>
-          <p>Connect with a growing community of lerners</p>
+          <div>
+          <p>Connect with a growing <br/>community of lerners</p>
+          </div>
           <button>JOIN OUR DISCORD</button>
         </div>
         <div id='logo'>  
@@ -33,8 +35,15 @@ export const Footer = () => {
             <p>Contact Us</p>
             <p>Program’d by Masai</p>
             </div>
-              <button className='btn'>GET STARTED</button>
+            <div className="footd">
+          <div>
+            <p className="foottext">Get Started</p>
+            <p className="footpara">Join the Program</p>
+          </div>
+          <button className="fbtn">GET STARTED</button>
         </div>
+        </div>
+        <p id='res'> © 2023 by Masai School | A Nolan Edutech Pvt Ltd Venture</p>
     </div>
   )
 }
