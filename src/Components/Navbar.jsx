@@ -13,7 +13,7 @@ export const Navbar = () => {
             <p>FEES RESOURCES</p>
             <p>FOR CORPORATES</p>
             <button>FOR STUDENTS</button>
-            <button>LOGIN</button>
+            <button >LOGIN</button>
             </div>
         </div>
   )

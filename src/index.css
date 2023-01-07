@@ -19,6 +19,13 @@ code {
   /* margin-left: 70px; */
   gap: 50px;
 }
+.nav>button{
+  background-color: rgb(237,3,49);
+  color: white;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
 .tags{
   display: flex;
   margin-left: 20px;
@@ -47,7 +54,7 @@ code {
 .enroll{
 display: flex;
 text-align: center;
-border: 1px solid red;
+
 }
 .enrl1{
   background-color: rgb(67, 98, 210);
@@ -70,4 +77,30 @@ display: flex;
 .instr{
   text-align: center;
 
+}
+.trust{
+  text-align: center;
+
+}
+.foot{
+  background-color: black;
+}
+.dis{
+  color: white;
+  display: flex;
+  text-align: center;
+  margin-left: 30%;
+}
+.dis>button{
+  width: 200px;
+  font-weight: bold;
+  font-size: large;
+  color: blue;
+  background-color: rgb(104, 104, 115);
+}
+.links{
+  display: flex;
+  color: white;
+  margin-left: 100px;
+  gap: 20%;
 }

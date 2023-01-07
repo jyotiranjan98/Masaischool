@@ -72,14 +72,23 @@ export const Pbody = () => {
           <button>START LEARNING</button>
           <div className="instr">
               <h1>Meet Your Instructors</h1>
-              <p>With extensive industry experience, the Masai Curriculum Team is a group of expert instructors.</p>
+              <p>With extensive industry experience, 
+                the Masai Curriculum Team is a group of expert instructors.</p>
+              <div>
+
+              </div>  
             <div>
             </div>  
           </div>
           <div className='trust'>
-            <h1>Thousands Trust Masai</h1>
-            <h1>To Launch Their career</h1>
+            <h2>Thousands Trust Masai To</h2>
+            <h2>Launch Their career</h2>
+            <div>
+
+            </div>
+            <button>MORE STORIES</button>
           </div>
+
     </div>
   )
 }
