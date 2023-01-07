@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Pbody = () => {
   return (
-    <div>
+    <div className='pbody'>
         <img src='https://masai-website-images.s3.ap-south-1.amazonaws.com/stud_image_desktop_upload_793ed2b430.png' alt='students' width="90%"/>
         <div className='partner'>
             <h2>Skilling talent that delivers.</h2>
@@ -36,25 +36,60 @@ export const Pbody = () => {
                 <img src='https://masai-website-images.s3.ap-south-1.amazonaws.com/ibm_795b5429ee.svg' alt='ibm'/>
             </div>
         </div>
-            <div className='enroll'>
-              <div>
-                <div className="enrl1">
-                  <span><h1>6000+</h1><h1>students Currently Enrolled</h1></span>
-                  <span><h1>94%</h1><h1>Placement Rate*</h1></span>
-                  <p>*for students who have graduated from Masai School and are Masai accredited</p>
-                </div>
-                <div className="enrl2">
-                  <div> </div>
-                  <div> </div>
-
-                </div>
-              </div>
-              <div className='enrl4'> 
-                <img src='https://www.masaischool.com/img/homepage/media.png' alt=''/>
-                <h2>Masai in the News</h2>
-                <button>KNOW MORE</button>
-              </div>
+{/* enrolements */}
+            
+      <div className="enroll">
+      <div className="enroll-first">
+        <div className="enroll-one">
+          <div className="subenroll-one">
+            <p>
+              <span>
+                <img
+                  src="https://www.masaischool.com/img/homepage/sunshine.png"
+                  alt=""
+                />
+                6000+
+              </span>
+              Students Currently
+            </p>
+            <p>Enrolled</p>
+            <p>
+              <span>94% </span>
+              Placement Rate* <br />
+              <img className="placementRate"
+                src="https://www.masaischool.com/img/homepage/underline.svg"
+                alt=""
+              />
+            </p>
+          </div>
+          <p>*for students who have graduated from Masai School and are Masai accredited</p>
+        </div>
+        <div className="enroll-two">
+          <div className="subenroll-two">
+            <div className="placementSvg">
+            
             </div>
+            <div className="placement-salary">₹7.2 LPA <br /> Average <br /> Salary</div>
+          </div>
+          <div className="subenroll-two-two">
+            <div className="placementSvghigh">
+              
+            </div>
+            <div className="placement-salary">₹36 LPA <br /> Highest <br /> Salary</div>
+          </div>
+        </div>
+      </div>
+      <div className="enroll-second">
+        <div className="secondDiv-one">
+          <img src="https://www.masaischool.com/img/homepage/media.png" alt="" />
+        </div>
+        <div className="secondDiv-two">
+          <h2>Masai In The News</h2>
+          <button>Know More</button>
+        </div>
+      </div>
+            </div>
+            
           <div className='skill'>
             <h1>Skill.Reskill.Upskill</h1>
             <p>No matter the stage of your career, if growth in India’s tech industry is your desired outcome, we got you covered!</p>
@@ -66,10 +101,10 @@ export const Pbody = () => {
             cost resource for college students. Since, the 2 companies have offered a Data Analytics course with a 
             Pay After Placement model. The Scholar Program comes as India’s first subscription based foundational learning course</p>
           <p>for 1st, 2nd & pre-final year students.</p> 
-          <button>VIEW COURSES</button> 
+          <button className='vw'>VIEW COURSES</button> 
           <p>You can avail scholarship upto 75%.</p>
           </div> 
-          <button>START LEARNING</button>
+          <button className='btn'>START LEARNING</button>
           <div className="instr">
               <h1>Meet Your Instructors</h1>
               <p>With extensive industry experience, 
@@ -86,7 +121,7 @@ export const Pbody = () => {
             <div>
 
             </div>
-            <button>MORE STORIES</button>
+            <button className='btn'>MORE STORIES</button>
           </div>
 
     </div>

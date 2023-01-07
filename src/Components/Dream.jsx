@@ -8,7 +8,7 @@ export const Dream = () => {
         <p>Launch your dream career</p>
         <h3>at 0 upfront fee.</h3>
         <img src='https://www.masaischool.com/img/homepage/scribble.png' alt=''></img>
-        <button>APPLY NOW FOR FREE</button>
+        <button id='appl'>APPLY NOW FOR FREE</button>
     </div>
   )
 }

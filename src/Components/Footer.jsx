@@ -7,7 +7,7 @@ export const Footer = () => {
           <p>Connect with a growing community of lerners</p>
           <button>JOIN OUR DISCORD</button>
         </div>
-        <div >
+        <div id='logo'>  
           <img src='https://www.masaischool.com/img/footer/masai-logo.svg' alt=''/>
 
         </div>
@@ -33,7 +33,7 @@ export const Footer = () => {
             <p>Contact Us</p>
             <p>Program’d by Masai</p>
             </div>
-              <button>GET STARTED</button>
+              <button className='btn'>GET STARTED</button>
         </div>
     </div>
   )

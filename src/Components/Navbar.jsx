@@ -12,8 +12,8 @@ export const Navbar = () => {
             <p>FEES & PAP</p>
             <p>FEES RESOURCES</p>
             <p>FOR CORPORATES</p>
-            <button>FOR STUDENTS</button>
-            <button >LOGIN</button>
+            <button id='for'>FOR STUDENTS</button>
+            <button className='log'>LOGIN</button>
             </div>
         </div>
   )

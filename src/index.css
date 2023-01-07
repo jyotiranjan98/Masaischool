@@ -19,10 +19,44 @@ code {
   /* margin-left: 70px; */
   gap: 50px;
 }
-.nav>button{
+#for{
+  color: rgb(73, 73, 193);
+  background-color: rgb(161, 161, 255);
+  font-weight: bold;
+}
+.log{
+  background-color: white;
+  color: rgb(237,3,49);
+  border: 1px solid rgb(237,3,49);
+  border-radius: 5px;
+  width: 75px;
+  /* background-color: rgb(237,3,49);
+  color: white;
+  width: 100px;
+  border: none;
+  border-radius: 5px; */
+}
+.vw{
+  background-color: white;
+  color: rgb(237,3,49);
+  border: 1px solid rgb(237,3,49);
+  border-radius: 5px;
+  width: 105px;
+}
+#appl{
   background-color: rgb(237,3,49);
   color: white;
   width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+
+}
+.btn{
+  background-color: rgb(237,3,49);
+  color: white;
+  width: 150px;
+  height: 40px;
   border: none;
   border-radius: 5px;
 }
@@ -33,13 +67,15 @@ code {
 }
 .dream{
   text-align: center;
+
 }
 /* body component */
-
+.pbody{
+  text-align: center;
+}
 .partner{
   text-align: center;
  
-  border: 1px solid green;
 }
 .partner>h2{
   color: rgb(82, 79, 79);
@@ -70,26 +106,35 @@ display: flex;
   text-align: center;
 }
 .pref{
+  border-radius: 10px;
+  margin-top: 40px;
   text-align: center;
   background-color: rgb(255,249,229);
   justify-content: center;
 }
 .instr{
+  margin-top: 40px;
   text-align: center;
 
 }
 .trust{
+  margin-top: 40px;
   text-align: center;
 
 }
 .foot{
+  margin-top: 40px;
   background-color: black;
+  
 }
 .dis{
   color: white;
   display: flex;
   text-align: center;
   margin-left: 30%;
+}
+#logo{
+  border: 1px solid white;
 }
 .dis>button{
   width: 200px;
@@ -103,4 +148,124 @@ display: flex;
   color: white;
   margin-left: 100px;
   gap: 20%;
+}
+/* placement */
+
+.enroll{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.enroll-first{
+  margin-top: -30px;
+}
+.enroll-one{
+  background-color: rgb(52,112,228);
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+  color: rgb(225,225,225);
+  justify-content: center;
+}
+.enroll-one > p {
+  color: rgb(225,225,225);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+}
+.subenroll-one{
+  margin-top: 10px;
+
+}
+.subenroll-one > p > span > img {
+  height: 50px;
+  left: -30px;
+}
+.subenroll-one > p > span{
+  color: rgb(255,219,102);
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.subenroll-one > p{
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 5px;
+  
+}
+.placementRate{
+  height: 16px;
+  left: -10px;
+
+}
+.enroll-two{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+
+.subenroll-two{
+  background-color: rgb(111,189,205);
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  width: 40%;
+  height: 250px;
+}
+.placementSvg{
+  width: 70px;
+  height: 70px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.placement-salary{
+  font-size: 34px;
+  font-weight: 600;
+  margin-top: 16px;
+  line-height: 40px;
+  color: rgb(255,255,255);
+}
+.subenroll-two-two{
+  background-color: rgb(111, 205, 158);
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  width: 40%;
+  height: 250px;
+}
+.placementSvghigh{
+  width: 70px;
+  height: 70px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.placementSvghigh > svg {
+  height: 70px;
+}
+
+.enroll-second{
+  background-color: rgb(110,113,204);
+  border-radius: 20px;
+}
+
+.secondDiv-one > img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.secondDiv-two > h2 {
+  font-weight: bold;
+  color: rgb(255,255,255);
+  font-size: 34px;
+}
+.secondDiv-two > button {
+  background-color: rgb(110,113,204);
+  color: rgb(255,255,255);
+  border: 1px solid white;
+  font-size: large;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
 }
