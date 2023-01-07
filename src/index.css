@@ -27,3 +27,17 @@ code {
 .dream{
   text-align: center;
 }
+/* body component */
+.partner{
+  text-align: center;
+}
+.partner>h2{
+  color: rgb(82, 79, 79);
+}
+.company{
+  display: flex;
+ animation: forwards;
+}
+.company>img{
+  height: 150px;
+}

@@ -1,3 +1,4 @@
+import { Pbody } from './Components/Pbody'
 import { Dream } from './Components/Dream'
 import { Navbar } from './Components/Navbar'
 import './index.css'
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Dream/>
+      <Pbody/>
     </div>
   )
 }
